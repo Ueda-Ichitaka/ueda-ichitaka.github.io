@@ -1,0 +1,24 @@
+body {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+h3 {
+	padding-top: 45px;
+}
+
+p.comment {
+	padding-left: 25px;
+}
+
+.sign {
+	padding-right: 5px;
+	/* display: true; */
+}
+
+.date {
+	visibility: hidden;
+	display: none;
+}
