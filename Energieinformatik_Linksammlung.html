@@ -9,7 +9,8 @@
 <style>
 	body {
 		padding-left: 25px;
-		padding-top: 25px;
+		padding-right: 25px;
+		padding-top: 10px;
 		padding-bottom: 25px;
 	}
 	
@@ -37,7 +38,7 @@
 function myFunction() {
 	var todaysdate = new Date();
     var dd = todaysdate.getDate();
-    var mm = todaysdate.getMonth(); //January is 0!
+    var mm = todaysdate.getMonth()+1; //January is 0!
 
     var yyyy = todaysdate.getFullYear();
     if(dd<10){
@@ -83,25 +84,26 @@ function myFunction() {
 	<p>Es ist explizit jeder dazu eingeladen, an dieser Sammlung mitzuwirken!</p>
 	
 	
+	<p>TODO: Innerhalb der Kategorien sortieren</p>	
 	<p>TODO: Kategorien sortieren</p>
 	<p>TODO: CSS Magie</p>
-	<p>TODO: Tag basiertes System?</p>
 	<p>TODO: Gallerieansicht mit Thumbnails?</p>
 	<p>TODO: JS new Tag bei neuen Items die jünger sind als 14 Tage</p>
 	<p>TODO: Footer mit Datenschutzerklärung und impressum</p>
+	<p>TODO: Top Picks</p>
 
 <!--
 	
 	<button onclick="myFunction()">Try it</button>
 	
 	<ul class="test">
-		<li><a class="sign">New! </a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
-		<li><a class="sign">New! </a><a class="date">07/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
+		<li><a class="sign">Neu!</a><a class="date">07/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
 	</ul>
 
 	<ul class="test">
-		<li><a class="sign">New! </a><a class="date">07/05/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
-		<li><a class="sign">New! </a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
+		<li><a class="sign">Neu!</a><a class="date">07/05/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" > Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment">ich bin ein kommentar</p></li>
 	</ul> -->
 		
 	
@@ -117,20 +119,20 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://storymaps.arcgis.com/stories/7e81a653b10f4bc4bbce371af9504523" >Zeozweifrei 2035 Karlsruhe</a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/hVON0CiHCNg" >Windenergie: Gemeinde kämpft mit der 10H-Regelung | BR24</a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/EQvMjbiLI00" >#20 Essen wir unsere Zukunft auf? | Das ist eine gute Frage PODCAST</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/PDlOiRqwSY8" >Neue Technologie für Energieversorgung zu Hause | Breaking Lab</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/KKCE-_viJAE" >Können wir Atommüll recyclen? | Breaking Lab</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/7SZGGnrXb1M" >Mini-Kernkraftwerke: Der Weg aus der Klimakrise? | Harald Lesch</a><p class="comment"></p></li>
-<!--		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=y-kVHGfrDH4" >Phytomining - Metalle aus Pflanzen ernten |Breaking Lab</a><p class="comment">Rohstoffe für Batterien gewinnen und gleichzeitig verbrauchte und verschmutzte Böden wieder für die Landwirtschaft aufbereiten</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>		
-		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>		
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/PDlOiRqwSY8" >Neue Technologie für Energieversorgung zu Hause | Breaking Lab</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/KKCE-_viJAE" >Können wir Atommüll recyclen? | Breaking Lab</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/7SZGGnrXb1M" >Mini-Kernkraftwerke: Der Weg aus der Klimakrise? | Harald Lesch</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=y-kVHGfrDH4" >Phytomining - Metalle aus Pflanzen ernten |Breaking Lab</a><p class="comment">Rohstoffe für Batterien gewinnen und gleichzeitig verbrauchte und verschmutzte Böden wieder für die Landwirtschaft aufbereiten</p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=OpEB6hCpIGM" >Why Biofuels Are Terrible | Real Engineering</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=wr7QZ364jPY" >How Big Can Wind Turbines Get? | Real Engineering</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=yVOnHWnLSeU" >The Mystery Flaw of Solar Panels | Real Engineering</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=CIYA6Jwwp4s" >Can Underwater Turbines Solve Our Energy Problems? | Real Engineering</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=-PL32ea0MqM" >The Missing Link in Renewables | Real Engineering</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Q2QeHmfBjyw" >This Battery Could Give Electric Cars Over 1000 Miles of Range</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=08mwXICY4JM" >What Really Happened During the Texas Power Grid Outage?</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=nNp21zTeCDc" >The Future of Solid State Wind Energy - No More Blades</a><p class="comment"></p></li>
+		<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=0d0MPg7DxbY" >No, Synthetic Fuels Won't Replace Electric Cars</a><p class="comment"></p></li>		
+<!--		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>		
 		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>		
 		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
@@ -154,6 +156,93 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=9eophSdyagg" >Klima: Wie ernst meint es Wirtschaftsminister Altmaier mit der Energiewende? | Monitor</a><p class="comment"></p></li>
 	</ul>
 
+	<h3>Energieinformatik 1 Grundlagen</h3>
+	<ul>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=JSgd-QhLHRI" >The Truth About Pumped Hydro - Real Engineering - YouTube</a><p class="comment">Anmerkung: Der Titel klingt nach Clickbait, behandelt werden Pumpspeicherkraftwerke in Irland</p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=TGUteH93xNo" >How diodes, LEDs and solar panels work - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=6WGKz2sUa0w" >Why all solar panels are secretly LEDs (and all LEDs are secretly solar panels) - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=APPBiK8ydN0" >So funktioniert eine Windkraftanlage | Volker Quaschning</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.ifta.com/anwendungen/schwingungen-gas-und-dampfturbinen/drehschwingungen.html" >Drehschwingungen in Turbinen</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=H6HTG1ClaFs" >SynRM | Ein neuer Gigant in der Elektrowelt</a><p class="comment">Ein Motor ist auch immer ein Generator; Es werden Elektromotoren behandelt</p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=CE-6jsWCATk" >Speicher für die Energiewende | Volker Quaschning</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://link.springer.com/book/10.1007/978-3-658-21829-4" >Elektrochemische Speicher | Springer Link</a><p class="comment">Verfügbar aus dem KIT Netz</p></li>		
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ReXgSAs65QA" >Voll geladen: neue Speicher für die Energiewende – Leschs Kosmos [Ganze TV-Folge] | Harald Lesch</a><p class="comment">Fasst wunderbar zusammen, wie die verschiedenen Technologien und Grundlagen aus EI1 ineinandergreifen</p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=f3hgB-0rPOI" >Why Do Wind Turbines (usually) Have 3 Blades? | Engineering with Rosie</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ldt405jIR0E" >Vertical Axis Wind Turbine Aerodynamics and Design | Engineering with Rosie</a><p class="comment"></p></li>
+		
+	</ul>
+
+	
+	<h3>(E-)Mobilität</h3>
+	<ul>
+		<li><H4>Fliegen</H4>	
+		<ul>	
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=iBtqfNi_Mms" >E-Motor für Flug-Taxis: Zukunftsweisende Technologie von Rolls Royce | BR24</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=D7GHHJXyltk" >Fliegen wir bald klimaneutral? | Breaking Lab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=RzqWWUVNno0" >#3 Fliegen in der Klimakrise | Das ist eine gute Frage PODCAST</a><p class="comment"></p></li>
+		</ul>	
+		
+		<li><H4>Autos</H4>
+		<ul>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://archive.org/details/vimeo-210171457" >Who Killed The Electric Car : baytalinsaan : Free Download, Borrow, and Streaming : Internet Archive</a><p class="comment">Eher humoristisch aufzufassende etwas ältere Doku, die viele Wahrheiten in etwas polemischen Populismus verpackt. Sehr gut als Unterhaltung, als Akademiker ist hier der Populismus von den Fakten zu trennen. Gleiches gilt für den zweiten Teil</p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=WXv-pixk0m8" >Revenge of the Electric Car - 2011 (FULL MOVIE DOCUMENTARY) - (English Subtitles) - YouTube</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://vimeo.com/ondemand/revengeoftheelectriccar" >Revenge of the Electric Car online ansehen | Vimeo On Demand auf Vimeo</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Gdki44i02Fk" >Update E-Auto: Induktives Laden ohne anzuhalten | BreakingLab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=_jvTvUKqtxw" >Wie sinnvoll ist das Tempolimit? Staus, Spritverbrauch und Unfälle - die echten Zahlen | BreakingLab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ElbgnYH-jnc" >Wasserstoff- vs. E-Auto vs. Verbrenner - der ultimative Vergleich! | BreakingLab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=WBqNS0nQzPY" >Elektroauto, Diesel oder Wasserstoff - Womit stoppen wir die Klimakrise? | Volker Quaschning</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=rwDcGPaHYwk" >Sind E-Autos die echten Umweltsünder? | Breaking Lab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=f_5Yvvcb0TM" >Besser als Tesla? NIO, der neue E-Auto Anbieter aus China | Breaking Lab</a><p class="comment"></p></li>
+			<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/-cYrpmvTChQ" >E-Auto mit Solarantrieb: Fortbewegungsmittel der Zukunft? | Quarks</a><p class="comment">KIT Bezug: KA-Racing baut gerne Rennwagen, warum nicht auch reine E Antriebe und Solarautos? Die Bauten können auch direkt in die Forschung wieder einfließen für Antriebstechnik, Materialwissenschaften, E-Mobilität und Photovoltaik.</p></li>
+			<li><a class="sign">Neu!</a><a class="date">08/06/2021</a><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/xj_CgQzdtWg" >6 Fehler, die die Elektromobilität definitiv NICHT machen sollte! - Bloch erklärt #145 | ams</a><p class="comment">Sehr gut erklärtes Video rund um Technologien mit vielen Anleihen an der Energieinformatik & Grundlagen, generelle Auseinandersetzung mit Kritik, Beleuchtung negativer Seiten, Pladoyer für Technologieoffenheit und konstruktiven Diskurs. Absolute Anschauenpfehlung!</p></li>
+		</ul>
+		
+		<li><H4>Batterien</H4>
+		<ul>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Uva8GFkZQbg" >Teslas neue Super-Batterie: 1,6 Millionen km mit dem E-Auto! | Breaking Lab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=DEsT8Z2XVzE" >Festkörperbatterien - Zukunft des E-Autos und mehr! | Breaking Lab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=SFiwbTWJNaQ" >Was passiert, wenn E-Autos brennen? Können Wasserstoffautos explodieren? Mythen Check | Breaking Lab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=-deX8WzsZAs" >Warum E-Flugzeuge (nicht) die Welt verändern werden | Breaking Lab</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=KO1GWu95_qw" >Salzwasser-Akkus: Das Ende der Lithium-Ionen-Batterie? | BreakingLab</a><p class="comment"></p></li>
+		</ul>
+
+		<li><H4>Kraftstoffe</H4>	
+		<ul>	
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=W-VWpGRHVoI" >Alternative Kraftstoffe: Biodiesel, Pflanzenöle und Ethanol im Vergleich | Gut zu wissen | BR</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=1yf33HOz8ug" >Besser als E-Autos? Klimafreundlicher Kraftstoff für Verbrenner | Gut zu wissen | BR</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Fpb7D5vm1vA" >Portable Liquid Air Power. A new boost for electric vehicles. | Just Have a Think</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=G3iKJ4IMick" >Neues E-Auto? 3 Minuten tanken, 800 Kilometer fahren, ohne Ladekabel | Die Story | Kontrovers | BR24</a><p class="comment">Brennstoffzelle mit Methanol als Brennstoff. Sehr interessanter Ansatz, da der hier vorgestellte Antrieb selbst in einen Smart einbaubar ist, was bei der bisher geläufigen H2 Brennstoffzelle nicht möglich ist. Gut erzähltes Panorama des früheren Audi Allrad Schöpfers. Die Technologie ist spannend und hat unheimliches Potential. Um es zu entfalten, muss die Firma und ihre Technologie allerdings erst bekannter werden. Absolute Anschauempfehlung!</p></li>
+		</ul>		
+		
+		<li><H4>Sonstiges</H4>
+		<ul>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="electrek.co" >electrek Magazine</a><p class="comment">Britisches Magazin rund umd ie Elektromobilität</p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=H6HTG1ClaFs" >SynRM | Ein neuer Gigant in der Elektrowelt</a><p class="comment">Ein Motor ist auch immer ein Generator; Es werden Elektromotoren behandelt</p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=nX1gt2BBmsk" >Energiewende im Verkehrsbereich - Nachhaltige Mobilität | Volker Quaschning</a><p class="comment"></p></li>
+			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.bayceer.uni-bayreuth.de/infraschall/de/forschung/gru/html.php?id_obj=157452" >Infraschall im Auto (Turbodiesel) | Uni Bayreuth</a><p class="comment">Untersuchung der Uni Bayreuth zu Infraschall; Gegenargument für Windkraftgegner</p></li>			
+		</ul>		
+	</ul>
+	
+	
+	<h3>Bauliches</h3>
+	<ul>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Z7U2SzjsLHM" >Statt stromfressender Klima-Anlage: So geht ökologisch kühlen mit Strom sparen | Unkraut | BR - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=yVgwEmeUpeY" >Neue Bautechnik: Wohnhaus aus dem 3-D-Drucker | Gut zu wissen | BR - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ugC5m3uhWsY" >Stroh statt Styropor? Klimaschonendes Bauen mit Naturdämmstoff | DokThema | Doku | BR - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=CrCJldFUAlQ" >Energieeffiziente Passivhäuser: Die Zukunft des Bauens | Campus Doku | BR - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=2moWymFjVHI" >Dürre, Borkenkäfer &amp; Export: Mit Holzbau aus der Klimakrise? | DokThema | Doku | BR - YouTube</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=GE74OjBXTH8" >Minimalismus in der Architektur: Durch einfaches Bauen die Nachhaltigkeit steigern | Capriccio | BR - YouTube</a><p class="comment"></p></li>		
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=v2aFBP7qMaI" >Graue Energie: Sanierungsmodelle für effizientes Energiesparen | Gut zu wissen | BR</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=fhQRTa1G2Ps" >Holz: Alter Baustoff - neu gedacht | Faszination Wissen | Doku | Bauen | Architektur</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=QMg9WQLgWnY" >Gut für den Klimaschutz - bauen mit Holz: Holzhäuser im Brandversuch | Gut zu wissen | BR</a><p class="comment">Interessante Erkenntnis der Feuerwehr: Stahlgebäude sind unberechenbar, Holzbauten sicherer und vorallem durch die Abbrennraten berechenbar; Holzbauten genügen den Brandschutzbedingungen und halten mindestens den vorgegebenen 90 Minuten Vollbrand stand</p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://electrek.co/2021/02/12/these-researchers-invented-energy-efficient-transparent-wood/" >These researchers invented energy-efficient transparent wood | electrek</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=bp6JwEl0pas" >Schutz der Altstadt? Passau diskutiert Stadtbildsatzung | Schwaben & Altbayern | BR</a><p class="comment">Diskussion um die Bestückung der Passauer Hausdächer mit PV Modulen. Insgesammt werden PV Module eher abgeleht wegen des Stadtbildes, obwohl man von der Straße aus die Dächer gar nicht sieht. Eine Alternative wären PV Dachziegel wie die von Tesla Solar Roof oder SolteQ</p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.tesla.com/de_de/solarroof" >Tesla Solar Roof / Solar City</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.solardachziegel-solteq.com/" >Solardachziegel SolteQ</a><p class="comment">Deutscher Konkurrent zu Tesla Solar City. Der Vorteil von Solardachziegeln ist, dass sie mit dem Denkmalschutz kompartibler sind als PV Module und wie ein ganz normales Dach aussehen.</p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.pv-magazine.de/unternehmensmeldungen/objektiver-vergleich-solardach-tesla-vs-solteq/" >Objektiver Vergleich Solardach: Tesla vs. SolteQ</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.solteq.eu/" >SolteQ Gruppe</a><p class="comment"></p></li>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=5laD-wogXnU" >Abriss vs. Neubau: Der Beton und seine graue Energie | Abendschau | BR24</a><p class="comment"></p></li>
+	</ul>
 
 
 	<h3>Atomenergie</h3>
@@ -298,7 +387,6 @@ function myFunction() {
 	<ul>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=9-or6uAY4l0" >Wann ist Heizen mit Holz umweltfreundlich? | Gut zu wissen | Doku | BR - YouTube</a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=S4wx9P_bU3Q" >Energiewende im Wärmebereich | Volker Quaschning</a><p class="comment"></p></li>
-
 	</ul>
 	
 	
@@ -311,7 +399,6 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.ebfr.de/bildung-gesellschaft/schoepfung-und-umwelt/detail/nachricht/id/142557-hummel-nr-143-kippengift-am-strassenrand/?cb-id=12104059" >Hummel Nr. 143: Kippengift am Straßenrand</a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.duh.de/presse/pressemitteilungen/pressemitteilung/204-millionen-zigaretten-pro-tag-deutsche-umwelthilfe-fordert-hohe-bussgelder-fuer-weggeworfene-kippe/" >204 Millionen Zigaretten pro Tag: Deutsche Umwelthilfe fordert hohe Bußgelder für weggeworfene Kippen und Rauchverbot auf Spielplätzen</a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=T7iGVymy6IU" >Diese Solarzellen aus Abfall brauchen kein Sonnenlicht! | Breaking Lab</a><p class="comment"></p></li>
-
 	</ul>
 
 
@@ -320,106 +407,6 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
 	</ul>
 
-
-	<h3>Energieinformatik 1 Grundlagen</h3>
-	<ul>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=JSgd-QhLHRI" >The Truth About Pumped Hydro - Real Engineering - YouTube</a><p class="comment">Anmerkung: Der Titel klingt nach Clickbait, behandelt werden Pumpspeicherkraftwerke in Irland</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=TGUteH93xNo" >How diodes, LEDs and solar panels work - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=6WGKz2sUa0w" >Why all solar panels are secretly LEDs (and all LEDs are secretly solar panels) - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=APPBiK8ydN0" >So funktioniert eine Windkraftanlage | Volker Quaschning</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.ifta.com/anwendungen/schwingungen-gas-und-dampfturbinen/drehschwingungen.html" >Drehschwingungen in Turbinen</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=H6HTG1ClaFs" >SynRM | Ein neuer Gigant in der Elektrowelt</a><p class="comment">Ein Motor ist auch immer ein Generator; Es werden Elektromotoren behandelt</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=CE-6jsWCATk" >Speicher für die Energiewende | Volker Quaschning</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://link.springer.com/book/10.1007/978-3-658-21829-4" >Elektrochemische Speicher | Springer Link</a><p class="comment">Verfügbar aus dem KIT Netz</p></li>		
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ReXgSAs65QA" >Voll geladen: neue Speicher für die Energiewende – Leschs Kosmos [Ganze TV-Folge] | Harald Lesch</a><p class="comment">Fasst wunderbar zusammen, wie die verschiedenen Technologien und Grundlagen aus EI1 ineinandergreifen</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=f3hgB-0rPOI" >Why Do Wind Turbines (usually) Have 3 Blades? | Engineering with Rosie</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ldt405jIR0E" >Vertical Axis Wind Turbine Aerodynamics and Design | Engineering with Rosie</a><p class="comment"></p></li>
-		
-	</ul>
-
-	
-	<h3>(E-)Mobilität</h3>
-	<ul>
-		<li><H4>Fliegen</H4>	
-		<ul>	
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=iBtqfNi_Mms" >E-Motor für Flug-Taxis: Zukunftsweisende Technologie von Rolls Royce | BR24</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=D7GHHJXyltk" >Fliegen wir bald klimaneutral? | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=RzqWWUVNno0" >#3 Fliegen in der Klimakrise | Das ist eine gute Frage PODCAST</a><p class="comment"></p></li>
-		</ul>
-		
-		
-		<li><H4>Autos</H4>
-		<ul>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://archive.org/details/vimeo-210171457" >Who Killed The Electric Car : baytalinsaan : Free Download, Borrow, and Streaming : Internet Archive</a><p class="comment">Eher humoristisch aufzufassende etwas ältere Doku, die viele Wahrheiten in etwas polemischen Populismus verpackt. Sehr gut als Unterhaltung, als Akademiker ist hier der Populismus von den Fakten zu trennen. Gleiches gilt für den zweiten Teil</p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=WXv-pixk0m8" >Revenge of the Electric Car - 2011 (FULL MOVIE DOCUMENTARY) - (English Subtitles) - YouTube</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://vimeo.com/ondemand/revengeoftheelectriccar" >Revenge of the Electric Car online ansehen | Vimeo On Demand auf Vimeo</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Gdki44i02Fk" >Update E-Auto: Induktives Laden ohne anzuhalten | BreakingLab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=_jvTvUKqtxw" >Wie sinnvoll ist das Tempolimit? Staus, Spritverbrauch und Unfälle - die echten Zahlen | BreakingLab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ElbgnYH-jnc" >Wasserstoff- vs. E-Auto vs. Verbrenner - der ultimative Vergleich! | BreakingLab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=WBqNS0nQzPY" >Elektroauto, Diesel oder Wasserstoff - Womit stoppen wir die Klimakrise? | Volker Quaschning</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=rwDcGPaHYwk" >Sind E-Autos die echten Umweltsünder? | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=f_5Yvvcb0TM" >Besser als Tesla? NIO, der neue E-Auto Anbieter aus China | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/-cYrpmvTChQ" >E-Auto mit Solarantrieb: Fortbewegungsmittel der Zukunft? | Quarks</a><p class="comment">KIT Bezug: KA-Racing baut gerne Rennwagen, warum nicht auch reine E Antriebe und Solarautos? Die Bauten können auch direkt in die Forschung wieder einfließen für Antriebstechnik, Materialwissenschaften, E-Mobilität und Photovoltaik.</p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://youtu.be/xj_CgQzdtWg" >6 Fehler, die die Elektromobilität definitiv NICHT machen sollte! - Bloch erklärt #145 | ams</a><p class="comment">Sehr gut erklärtes Video rund um Technologien mit vielen Anleihen an der Energieinformatik & Grundlagen, generelle Auseinandersetzung mit Kritik, Beleuchtung negativer Seiten, Pladoyer für Technologieoffenheit und konstruktiven Diskurs. Absolute Anschauenpfehlung!</p></li>
-		
-		</ul>
-		
-		
-		<li><H4>Batterien</H4>
-		<ul>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Uva8GFkZQbg" >Teslas neue Super-Batterie: 1,6 Millionen km mit dem E-Auto! | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=DEsT8Z2XVzE" >Festkörperbatterien - Zukunft des E-Autos und mehr! | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=SFiwbTWJNaQ" >Was passiert, wenn E-Autos brennen? Können Wasserstoffautos explodieren? Mythen Check | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=-deX8WzsZAs" >Warum E-Flugzeuge (nicht) die Welt verändern werden | Breaking Lab</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=KO1GWu95_qw" >Salzwasser-Akkus: Das Ende der Lithium-Ionen-Batterie? | BreakingLab</a><p class="comment"></p></li>
-
-		</ul>
-
-		<li><H4>Kraftstoffe</H4>	
-		<ul>	
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=W-VWpGRHVoI" >Alternative Kraftstoffe: Biodiesel, Pflanzenöle und Ethanol im Vergleich | Gut zu wissen | BR</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=1yf33HOz8ug" >Besser als E-Autos? Klimafreundlicher Kraftstoff für Verbrenner | Gut zu wissen | BR</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Fpb7D5vm1vA" >Portable Liquid Air Power. A new boost for electric vehicles. | Just Have a Think</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=G3iKJ4IMick" >Neues E-Auto? 3 Minuten tanken, 800 Kilometer fahren, ohne Ladekabel | Die Story | Kontrovers | BR24</a><p class="comment">Brennstoffzelle mit Methanol als Brennstoff. Sehr interessanter Ansatz, da der hier vorgestellte Antrieb selbst in einen Smart einbaubar ist, was bei der bisher geläufigen H2 Brennstoffzelle nicht möglich ist. Gut erzähltes Panorama des früheren Audi Allrad Schöpfers. Die Technologie ist spannend und hat unheimliches Potential. Um es zu entfalten, muss die Firma und ihre Technologie allerdings erst bekannter werden. Absolute Anschauempfehlung!</p></li>
-
-		</ul>		
-		
-		<li><H4>Sonstiges</H4>
-		<ul>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="electrek.co" >electrek Magazine</a><p class="comment">Britisches Magazin rund umd ie Elektromobilität</p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=H6HTG1ClaFs" >SynRM | Ein neuer Gigant in der Elektrowelt</a><p class="comment">Ein Motor ist auch immer ein Generator; Es werden Elektromotoren behandelt</p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=nX1gt2BBmsk" >Energiewende im Verkehrsbereich - Nachhaltige Mobilität | Volker Quaschning</a><p class="comment"></p></li>
-			<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.bayceer.uni-bayreuth.de/infraschall/de/forschung/gru/html.php?id_obj=157452" >Infraschall im Auto (Turbodiesel) | Uni Bayreuth</a><p class="comment">Untersuchung der Uni Bayreuth zu Infraschall; Gegenargument für Windkraftgegner</p></li>	
-		
-		</ul>		
-		
-		
-
-
-	</ul>
-	
-	
-	<h3>Bauliches</h3>
-	<ul>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=Z7U2SzjsLHM" >Statt stromfressender Klima-Anlage: So geht ökologisch kühlen mit Strom sparen | Unkraut | BR - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=yVgwEmeUpeY" >Neue Bautechnik: Wohnhaus aus dem 3-D-Drucker | Gut zu wissen | BR - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ugC5m3uhWsY" >Stroh statt Styropor? Klimaschonendes Bauen mit Naturdämmstoff | DokThema | Doku | BR - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=CrCJldFUAlQ" >Energieeffiziente Passivhäuser: Die Zukunft des Bauens | Campus Doku | BR - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=2moWymFjVHI" >Dürre, Borkenkäfer &amp; Export: Mit Holzbau aus der Klimakrise? | DokThema | Doku | BR - YouTube</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=GE74OjBXTH8" >Minimalismus in der Architektur: Durch einfaches Bauen die Nachhaltigkeit steigern | Capriccio | BR - YouTube</a><p class="comment"></p></li>		
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=v2aFBP7qMaI" >Graue Energie: Sanierungsmodelle für effizientes Energiesparen | Gut zu wissen | BR</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=fhQRTa1G2Ps" >Holz: Alter Baustoff - neu gedacht | Faszination Wissen | Doku | Bauen | Architektur</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=QMg9WQLgWnY" >Gut für den Klimaschutz - bauen mit Holz: Holzhäuser im Brandversuch | Gut zu wissen | BR</a><p class="comment">Interessante Erkenntnis der Feuerwehr: Stahlgebäude sind unberechenbar, Holzbauten sicherer und vorallem durch die Abbrennraten berechenbar; Holzbauten genügen den Brandschutzbedingungen und halten mindestens den vorgegebenen 90 Minuten Vollbrand stand</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://electrek.co/2021/02/12/these-researchers-invented-energy-efficient-transparent-wood/" >These researchers invented energy-efficient transparent wood | electrek</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=bp6JwEl0pas" >Schutz der Altstadt? Passau diskutiert Stadtbildsatzung | Schwaben & Altbayern | BR</a><p class="comment">Diskussion um die Bestückung der Passauer Hausdächer mit PV Modulen. Insgesammt werden PV Module eher abgeleht wegen des Stadtbildes, obwohl man von der Straße aus die Dächer gar nicht sieht. Eine Alternative wären PV Dachziegel wie die von Tesla Solar Roof oder SolteQ</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.tesla.com/de_de/solarroof" >Tesla Solar Roof / Solar City</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.solardachziegel-solteq.com/" >Solardachziegel SolteQ</a><p class="comment">Deutscher Konkurrent zu Tesla Solar City. Der Vorteil von Solardachziegeln ist, dass sie mit dem Denkmalschutz kompartibler sind als PV Module und wie ein ganz normales Dach aussehen.</p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.pv-magazine.de/unternehmensmeldungen/objektiver-vergleich-solardach-tesla-vs-solteq/" >Objektiver Vergleich Solardach: Tesla vs. SolteQ</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.solteq.eu/" >SolteQ Gruppe</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=5laD-wogXnU" >Abriss vs. Neubau: Der Beton und seine graue Energie | Abendschau | BR24</a><p class="comment"></p></li>
-
-	</ul>
-	
 
 	<h3>Sonstiges Energiewende, Klimawandel und Nachhaltigkeit</h3>
 	<ul>
@@ -434,7 +421,6 @@ function myFunction() {
 
 	</ul>
 	
-
 	
 	<h3>Sonstiges</h3>
 	<ul>
@@ -447,6 +433,7 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.sek.kit.edu/downloads/lookkit-202002.pdf" >lookKIT 2020/2 zum Energy Lab 2.0</a><p class="comment"></p></li>
 	</ul>
 	
+	
 	<h3>Dokumentationen</h3>
 	<ul>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=oJ1zm65u-ck" >Klimawandel - Was die Wissenschaft wirklich weiß (...und was nicht) | 1/2 | WDR Doku</a><p class="comment"></p></li>
@@ -454,8 +441,7 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://archive.org/details/vimeo-210171457" >Who Killed The Electric Car : baytalinsaan : Free Download, Borrow, and Streaming : Internet Archive</a><p class="comment">Eher humoristisch aufzufassende etwas ältere Doku, die viele Wahrheiten in etwas polemischen Populismus verpackt. Sehr gut als Unterhaltung, als Akademiker ist hier der Populismus von den Fakten zu trennen. Gleiches gilt für den zweiten Teil.</p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=WXv-pixk0m8" >Revenge of the Electric Car - 2011 (FULL MOVIE DOCUMENTARY) - (English Subtitles) - YouTube</a><p class="comment"></p></li>
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=nBfz8R1SRhk" >Mit der Energiewende in den Blackout? - Wie sich das Stromnetz verändern muss | MDR Dok</a><p class="comment"></p></li>
-		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ReXgSAs65QA" >Voll geladen: neue Speicher für die Energiewende – Leschs Kosmos [Ganze TV-Folge] | Harald Lesch</a><p class="comment">Fasst wunderbar zusammen, wie die verschiedenen Technologien und Grundlagen aus EI1 ineinandergreifen</p></li>
-		
+		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/watch?v=ReXgSAs65QA" >Voll geladen: neue Speicher für die Energiewende – Leschs Kosmos [Ganze TV-Folge] | Harald Lesch</a><p class="comment">Fasst wunderbar zusammen, wie die verschiedenen Technologien und Grundlagen aus EI1 ineinandergreifen</p></li>		
 	</ul>
 
 	<h3>Podcasts</h3>
@@ -477,7 +463,10 @@ function myFunction() {
 		<li><a target="_blank" rel="noopener noreferrer" HREF="https://www.youtube.com/channel/UClu8Q445-ZAG1dzzP1mHiAw" >Engineering with Rosie</a><p class="comment">Kanal der viele Aspekte der Technologien in EI1 aus der Sicht von Ingenieuren betrachtet</p></li>
 	</ul>
 	
-
+	<h3>Top Picks</h3>
+	<ul>
+		<li><a target="_blank" rel="noopener noreferrer" HREF="" ></a><p class="comment"></p></li>
+	</ul>
 
 	<h3>leere Kategorie</h3>
 	<ul>
